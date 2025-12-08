@@ -4,35 +4,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salman's Portfolio</title>
+    <title>Salman — Laravel Developer & Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Salman</h1>
-        <p>Laravel Developer & Graphic Designer from Karachi</p>
+    <nav class="nav">
+        <div class="container nav-inner">
+            <div class="brand">Salman</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-inner">
+            <div class="hero-content">
+                <h1>Hello, I'm Salman</h1>
+                <p class="lead">Laravel Developer & Graphic Designer from Karachi</p>
+                <div class="hero-ctas">
+                    <a class="btn primary" href="#projects">See Projects</a>
+                    <a class="btn ghost" href="#contact">Contact Me</a>
+                </div>
+                <p class="contact-small">Call: <a href="tel:+923144492231">0314 4492231</a> • Email: <a href="mailto:krosub0@gmail.com">krosub0@gmail.com</a></p>
+            </div>
+            <div class="hero-art">
+                <div class="art-card">
+                    <div class="art-shape"></div>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm Salman, a passionate Laravel developer and graphic designer based in Karachi. I love creating web applications and designing visually appealing graphics.</p>
-    </section>
+    <main class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I'm Salman — I build fast, maintainable web applications using Laravel and craft brand visuals and UI assets as a graphic designer. I enjoy solving problems with clean code and thoughtful design.</p>
+        </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Laravel Development</li>
-            <li>PHP</li>
-            <li>Graphic Design</li>
-            <li>HTML/CSS</li>
-            <li>JavaScript</li>
-        </ul>
-    </section>
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">Laravel</div>
+                <div class="skill">PHP</div>
+                <div class="skill">MySQL</div>
+                <div class="skill">HTML & CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">Graphic Design</div>
+            </div>
+        </section>
 
-    <footer>
-        <p>Contact: [Your Email Here]</p>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <article class="card">
+                    <div class="card-thumb">Project 1</div>
+                    <h3>Laravel E‑commerce</h3>
+                    <p>Built a modular e-commerce platform with custom payment integration and admin dashboard.</p>
+                </article>
+
+                <article class="card">
+                    <div class="card-thumb">Project 2</div>
+                    <h3>Portfolio CMS</h3>
+                    <p>Custom CMS for creatives to manage portfolios and blog with an intuitive editor.</p>
+                </article>
+
+                <article class="card">
+                    <div class="card-thumb">Project 3</div>
+                    <h3>Branding & Identity</h3>
+                    <p>Logo and brand design for local startups, including print and digital assets.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <h2>Contact</h2>
+            <p>I'd love to hear about your project. Reach out by phone or email:</p>
+            <ul class="contact-list">
+                <li>Phone: <a href="tel:+923144492231">0314 4492231</a></li>
+                <li>Email: <a href="mailto:krosub0@gmail.com">krosub0@gmail.com</a></li>
+            </ul>
+            <p>If you'd like, I can add a contact form that submits to an email or endpoint — tell me which you prefer.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <strong>Salman</strong> — Laravel Developer & Designer • Karachi</p>
+        </div>
     </footer>
+
 </body>
 
 </html>
