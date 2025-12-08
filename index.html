@@ -38,7 +38,18 @@
             </div>
             <div class="hero-art">
                 <div class="art-card">
-                    <div class="art-shape"></div>
+                    <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                                <stop offset="0%" stop-color="#06b6d4" />
+                                <stop offset="100%" stop-color="#7c3aed" />
+                            </radialGradient>
+                        </defs>
+                        <ellipse cx="100" cy="100" rx="90" ry="80" fill="url(#grad1)" />
+                        <circle cx="60" cy="60" r="22" fill="#fff" opacity="0.18" />
+                        <circle cx="140" cy="140" r="16" fill="#fff" opacity="0.12" />
+                        <rect x="120" y="40" width="30" height="12" rx="6" fill="#fff" opacity="0.18" />
+                    </svg>
                 </div>
             </div>
         </div>
@@ -67,19 +78,25 @@
             <h2><i class="fa-solid fa-diagram-project accent"></i> Projects</h2>
             <div class="projects-grid">
                 <article class="card">
-                    <div class="card-thumb">E‑commerce</div>
+                    <div class="card-thumb">
+                        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="E-commerce" class="thumb-img">
+                    </div>
                     <h3><i class="fa-solid fa-store"></i> Laravel E‑commerce</h3>
                     <p>Built a modular e-commerce platform with payment integration, coupons and admin dashboard.</p>
                 </article>
 
                 <article class="card">
-                    <div class="card-thumb">CMS</div>
+                    <div class="card-thumb">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" alt="CMS" class="thumb-img">
+                    </div>
                     <h3><i class="fa-solid fa-file-lines"></i> Portfolio CMS</h3>
                     <p>Custom CMS for creatives to manage portfolios and blog with an intuitive editor.</p>
                 </article>
 
                 <article class="card">
-                    <div class="card-thumb">Branding</div>
+                    <div class="card-thumb">
+                        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Branding" class="thumb-img">
+                    </div>
                     <h3><i class="fa-solid fa-pencil-ruler"></i> Branding & Identity</h3>
                     <p>Logo and brand design for local startups, including print and digital assets.</p>
                 </article>
