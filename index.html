@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -16,10 +17,10 @@
         <div class="container nav-inner">
             <div class="brand">Salman</div>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about"><i class="fa-solid fa-user"></i> About</a></li>
+                <li><a href="#skills"><i class="fa-solid fa-gear"></i> Skills</a></li>
+                <li><a href="#projects"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -30,8 +31,8 @@
                 <h1>Hello, I'm Salman</h1>
                 <p class="lead">Laravel Developer & Graphic Designer from Karachi</p>
                 <div class="hero-ctas">
-                    <a class="btn primary" href="#projects">See Projects</a>
-                    <a class="btn ghost" href="#contact">Contact Me</a>
+                    <a class="btn primary" href="#projects"><i class="fa-solid fa-rocket"></i> See Projects</a>
+                    <a class="btn ghost" href="#contact"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
                 </div>
                 <p class="contact-small">Call: <a href="tel:+923144492231">0314 4492231</a> • Email: <a href="mailto:krosub0@gmail.com">krosub0@gmail.com</a></p>
             </div>
@@ -45,51 +46,52 @@
 
     <main class="container">
         <section id="about" class="section">
-            <h2>About Me</h2>
+            <h2><i class="fa-solid fa-user-pen accent"></i> About Me</h2>
             <p>I'm Salman — I build fast, maintainable web applications using Laravel and craft brand visuals and UI assets as a graphic designer. I enjoy solving problems with clean code and thoughtful design.</p>
         </section>
 
         <section id="skills" class="section">
-            <h2>Skills</h2>
+            <h2><i class="fa-solid fa-lightbulb accent"></i> Skills</h2>
             <div class="skills-grid">
-                <div class="skill">Laravel</div>
-                <div class="skill">PHP</div>
-                <div class="skill">MySQL</div>
-                <div class="skill">HTML & CSS</div>
-                <div class="skill">JavaScript</div>
-                <div class="skill">Graphic Design</div>
+                <div class="skill"><i class="fa-solid fa-laptop-code"></i> Laravel</div>
+                <div class="skill"><i class="fa-brands fa-php"></i> PHP</div>
+                <div class="skill"><i class="fa-solid fa-database"></i> MySQL</div>
+                <div class="skill"><i class="fa-brands fa-html5"></i> HTML</div>
+                <div class="skill"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+                <div class="skill"><i class="fa-brands fa-js"></i> JavaScript</div>
+                <div class="skill"><i class="fa-solid fa-paintbrush"></i> Graphic Design</div>
             </div>
         </section>
 
         <section id="projects" class="section">
-            <h2>Projects</h2>
+            <h2><i class="fa-solid fa-diagram-project accent"></i> Projects</h2>
             <div class="projects-grid">
                 <article class="card">
-                    <div class="card-thumb">Project 1</div>
-                    <h3>Laravel E‑commerce</h3>
-                    <p>Built a modular e-commerce platform with custom payment integration and admin dashboard.</p>
+                    <div class="card-thumb">E‑commerce</div>
+                    <h3><i class="fa-solid fa-store"></i> Laravel E‑commerce</h3>
+                    <p>Built a modular e-commerce platform with payment integration, coupons and admin dashboard.</p>
                 </article>
 
                 <article class="card">
-                    <div class="card-thumb">Project 2</div>
-                    <h3>Portfolio CMS</h3>
+                    <div class="card-thumb">CMS</div>
+                    <h3><i class="fa-solid fa-file-lines"></i> Portfolio CMS</h3>
                     <p>Custom CMS for creatives to manage portfolios and blog with an intuitive editor.</p>
                 </article>
 
                 <article class="card">
-                    <div class="card-thumb">Project 3</div>
-                    <h3>Branding & Identity</h3>
+                    <div class="card-thumb">Branding</div>
+                    <h3><i class="fa-solid fa-pencil-ruler"></i> Branding & Identity</h3>
                     <p>Logo and brand design for local startups, including print and digital assets.</p>
                 </article>
             </div>
         </section>
 
         <section id="contact" class="section contact-section">
-            <h2>Contact</h2>
+            <h2><i class="fa-solid fa-envelope-open-text accent"></i> Contact</h2>
             <p>I'd love to hear about your project. Reach out by phone or email:</p>
             <ul class="contact-list">
-                <li>Phone: <a href="tel:+923144492231">0314 4492231</a></li>
-                <li>Email: <a href="mailto:krosub0@gmail.com">krosub0@gmail.com</a></li>
+                <li><i class="fa-solid fa-phone"></i> <a href="tel:+923144492231">0314 4492231</a></li>
+                <li><i class="fa-solid fa-envelope"></i> <a href="mailto:krosub0@gmail.com">krosub0@gmail.com</a></li>
             </ul>
             <p>If you'd like, I can add a contact form that submits to an email or endpoint — tell me which you prefer.</p>
         </section>
@@ -98,6 +100,11 @@
     <footer class="site-footer">
         <div class="container">
             <p>© <strong>Salman</strong> — Laravel Developer & Designer • Karachi</p>
+            <div class="socials">
+                <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" aria-label="Behance"><i class="fa-brands fa-behance"></i></a>
+            </div>
         </div>
     </footer>
 
